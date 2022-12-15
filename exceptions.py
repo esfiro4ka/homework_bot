@@ -6,6 +6,10 @@ class NegativeStatusCodeException(Exception):
     """API возвращает код, отличный от 200."""
 
 
+class JSONDecodeException(Exception):
+    """Ошибка преобразования JSON."""
+
+
 class APIErrorException(Exception):
     """Ошибка при запросе к основному API."""
 
